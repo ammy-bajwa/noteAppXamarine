@@ -4,11 +4,23 @@
              xmlns:local="clr-namespace:NoteApp"
              x:Class="NoteApp.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="" BackgroundColor="PowderBlue" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4"/>
+        <Editor Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Placeholder="Enter Note Here"/>
+        <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="Save" />
+        <Button Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Text="Erase" />
+    </Grid>
 
 </ContentPage>
