@@ -9,7 +9,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="2*"/>
             <RowDefinition Height=".5*"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -17,7 +17,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Image Source="" BackgroundColor="PowderBlue" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4"/>
+        <Image Source="aliva" BackgroundColor="PowderBlue" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4"/>
         <Editor Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Placeholder="Enter Note Here"/>
         <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="Save" />
         <Button Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Text="Erase" />
