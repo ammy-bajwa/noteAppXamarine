@@ -7,9 +7,9 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -21,6 +21,7 @@
         <Editor Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Placeholder="Enter Note Here"/>
         <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="Save" />
         <Button Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Text="Erase" />
+        <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" Text="AlivaTech" FontSize="Large" />
     </Grid>
 
 </ContentPage>
